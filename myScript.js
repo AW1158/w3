@@ -1,8 +1,9 @@
-function1()
+function function1()
 {
-    document.getElementById("myImage").src="chrome.jpg";
+    console.log("Hello function 1!")
+    document.getElementById("myImage").src="Images/chrome.jpg";
 }
-function2()
+function function2()
 {
-    document.getElementById("myImage").src="google.jpg";
+    document.getElementById("myImage").src="Images/google.jpg";
 }
